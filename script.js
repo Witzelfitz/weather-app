@@ -28,4 +28,13 @@ async function updateWeather() {
     }
 }
 
+function handleCityClick(event) {
+    const cityId = event.currentTarget.id;
+    alert(`You clicked on ${cityId}`);
+}
+
+document.querySelectorAll('.clickable').forEach(element => {
+    element.addEventListener('click', handleCityClick);
+});
+
 updateWeather();

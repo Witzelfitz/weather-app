@@ -73,3 +73,14 @@ section {
     background-color: #fff;
     color: #000;
 }
+
+/* Hover Effects for Clickable Elements */
+.clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.clickable:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}

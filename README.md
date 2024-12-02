@@ -7,6 +7,8 @@ This is a modern, clean, and simple Weather Application built with HTML, CSS, an
 - Fetches and displays weather data for Bern, Zürich, and Chur
 - Unique styling and look and feel for each city
 - High contrast and readability for users older than 50
+- Clickable elements for each city section
+- Hover effects for clickable elements
 
 ## Setup and Run
 
@@ -29,3 +31,7 @@ Each city in the application has its own unique styling and look and feel:
 - **Chur**: Light purple background with purple headings
 
 The application ensures high contrast and readability, making it highly usable for people older than 50.
+
+## Clickable Elements and Hover Effects
+
+The application includes clickable elements for each city section, allowing users to interact with the application. Hover effects are also added to enhance the user experience, making the application more engaging and visually appealing.
