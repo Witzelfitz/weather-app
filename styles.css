@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 30%;
+}
+
+/* Bern Styles */
+#bern {
+    background-color: #e0f7fa;
+}
+
+#bern h2 {
+    color: #00796b;
+}
+
+/* Zürich Styles */
+#zurich {
+    background-color: #e8f5e9;
+}
+
+#zurich h2 {
+    color: #388e3c;
+}
+
+/* Chur Styles */
+#chur {
+    background-color: #f3e5f5;
+}
+
+#chur h2 {
+    color: #8e24aa;
+}
+
+/* High Contrast and Readability */
+body {
+    font-size: 20px;
+}
+
+header, footer {
+    background-color: #000;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    color: #000;
+}
